@@ -5,3 +5,33 @@
 2026-04-21 09:40:09.146 [main] ERROR c.quanxiaoha.weblog.web.WeblogWebApplicationTests - error log
 2026-04-21 09:40:09.146 [main] WARN  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - warn log
 2026-04-21 09:40:09.146 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - 这是一行带有占位符日志，作者：犬小哈
+[TraceId: ] 2026-04-21 12:58:44.545 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_311 on R9000P2021H with PID 3968 (E:\download\developsources\weblog\weblog-springboot\weblog-web\target\classes started by win11 in E:\download\developsources\weblog\weblog-springboot)
+[TraceId: ] 2026-04-21 12:58:44.549 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2026-04-21 12:58:45.931 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2026-04-21 12:58:45.943 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2026-04-21 12:58:45.943 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2026-04-21 12:58:46.097 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2026-04-21 12:58:46.099 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1496 ms
+[TraceId: ] 2026-04-21 12:58:46.605 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2026-04-21 12:58:46.618 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 2.87 seconds (JVM running for 5.03)
+[TraceId: ] 2026-04-21 13:00:49.190 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - Starting WeblogWebApplicationTests using Java 1.8.0_311 on R9000P2021H with PID 17992 (started by win11 in E:\download\developsources\weblog\weblog-springboot\weblog-web)
+[TraceId: ] 2026-04-21 13:00:49.192 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - The following profiles are active: prod
+[TraceId: ] 2026-04-21 13:00:51.928 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - Started WeblogWebApplicationTests in 3.672 seconds (JVM running for 6.392)
+[TraceId: ] 2026-04-21 13:00:52.377 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - info log
+[TraceId: ] 2026-04-21 13:00:52.378 [main] ERROR c.quanxiaoha.weblog.web.WeblogWebApplicationTests - error log
+[TraceId: ] 2026-04-21 13:00:52.378 [main] WARN  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - warn log
+[TraceId: ] 2026-04-21 13:00:52.378 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - 这是一行带有占位符日志，作者：犬小哈
+[TraceId: ] 2026-04-21 13:02:15.273 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_311 on R9000P2021H with PID 4876 (E:\download\developsources\weblog\weblog-springboot\weblog-web\target\classes started by win11 in E:\download\developsources\weblog\weblog-springboot)
+[TraceId: ] 2026-04-21 13:02:15.277 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2026-04-21 13:02:16.469 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2026-04-21 13:02:16.481 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2026-04-21 13:02:16.481 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2026-04-21 13:02:16.626 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2026-04-21 13:02:16.626 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1298 ms
+[TraceId: ] 2026-04-21 13:02:17.071 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2026-04-21 13:02:17.083 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 2.451 seconds (JVM running for 4.647)
+[TraceId: ] 2026-04-21 13:02:21.163 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2026-04-21 13:02:21.163 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2026-04-21 13:02:21.164 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: a39309da-a9da-4a77-a55b-f605ccb727f5] 2026-04-21 13:02:21.388 [http-nio-8080-exec-2] INFO  c.q.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: a39309da-a9da-4a77-a55b-f605ccb727f5] 2026-04-21 13:02:21.408 [http-nio-8080-exec-2] INFO  c.q.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 44ms, 出参: {"username":"admin","sex":1} =================================== 
