@@ -1,0 +1,7 @@
+2026-04-21 09:40:06.848 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - Starting WeblogWebApplicationTests using Java 1.8.0_311 on R9000P2021H with PID 37512 (started by win11 in E:\download\developsources\weblog\weblog-springboot\weblog-web)
+2026-04-21 09:40:06.849 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - The following profiles are active: prod
+2026-04-21 09:40:08.815 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - Started WeblogWebApplicationTests in 2.696 seconds (JVM running for 4.736)
+2026-04-21 09:40:09.142 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - info log
+2026-04-21 09:40:09.146 [main] ERROR c.quanxiaoha.weblog.web.WeblogWebApplicationTests - error log
+2026-04-21 09:40:09.146 [main] WARN  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - warn log
+2026-04-21 09:40:09.146 [main] INFO  c.quanxiaoha.weblog.web.WeblogWebApplicationTests - 这是一行带有占位符日志，作者：犬小哈
