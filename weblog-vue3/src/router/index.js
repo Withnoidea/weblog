@@ -1,4 +1,4 @@
-import Index from "../pages/frontend/index.vue";
+import Index from "@/pages/frontend/index.vue";
 import { createRouter, createWebHashHistory } from "vue-router";
 
 //统一声明路由
