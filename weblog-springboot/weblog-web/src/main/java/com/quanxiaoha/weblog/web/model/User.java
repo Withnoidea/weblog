@@ -5,6 +5,9 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import javax.validation.constraints.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 /**
  * @Author: Withnoidea
@@ -36,5 +39,11 @@ public class User {
     @ApiModelProperty(value = "用户邮箱")
     private String email;
 
+    // 创建时间
+    private LocalDateTime createTime;
+    // 更新日期
+    private LocalDate updateDate;
+    // 时间
+    private LocalTime time;
 
 }
