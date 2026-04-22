@@ -1,12 +1,12 @@
-import "@/assets/main.css";
+import '@/assets/main.css'
 
-import { createApp } from "vue";
-import App from "@/App.vue";
+import { createApp } from 'vue'
+import App from '@/App.vue'
 // 导入路由
-import router from "@/router";
+import router from '@/router'
 
-const app = createApp(App);
+const app = createApp(App)
 
 // 应用路由
-app.use(router);
-app.mount("#app");
+app.use(router)
+app.mount('#app')
