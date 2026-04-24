@@ -29,6 +29,9 @@
         <module>weblog-module-admin</module>
         <!-- 通用模块 -->
         <module>weblog-module-common</module>
+
+        <!-- JWT 模块 -->
+        <module>weblog-module-jwt</module>
     </modules>
 
 
@@ -56,8 +59,7 @@
 
         <p6spy.version>3.9.1</p6spy.version>
 
-        <!-- JWT 模块 -->
-        <module>weblog-module-jwt</module>
+        <jjwt.version>0.11.2</jjwt.version>
 
     </properties>
 
@@ -127,6 +129,25 @@
                 <artifactId>weblog-module-jwt</artifactId>
                 <version>${revision}</version>
             </dependency>
+
+            <!--   JWT   -->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-api</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-impl</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-jackson</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+
+
 
         </dependencies>
     </dependencyManagement>

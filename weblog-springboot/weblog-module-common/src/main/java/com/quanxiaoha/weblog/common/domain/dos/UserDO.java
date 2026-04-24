@@ -8,7 +8,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 /**
  * @Author: Withnoidea
@@ -17,11 +17,12 @@ import java.util.Date;
  * @Description: TODO
  */
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
 @TableName("t_user")
 public class UserDO {
+
     @TableId(type = IdType.AUTO)
     private Long id;
 
@@ -29,9 +30,9 @@ public class UserDO {
 
     private String password;
 
-    private Date createTime;
+    private LocalDateTime createTime;
 
-    private Date updateTime;
+    private LocalDateTime updateTime;
 
     private Boolean isDeleted;
 }

@@ -2,4 +2,9 @@ spring:
   profiles:
     # 默认激活 dev 环境
     active: dev
+jwt:
+  # 签发人
+  issuer: quanxiaoha
+  # 密钥
+  secret: erNWldsoNH0ugnqZzxNCZUocGfn4IOeU0zDLNYRemZZC/NoY63vuvJIgY1qf5sINfDFOXBsQtr+4wz4oacwYdw==
 
